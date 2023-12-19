@@ -1,6 +1,18 @@
 /* ---------------- */
+/* Custom Properties            */
+/* ---------------- */
+
+:root {
+    --clr-dark: 230 35% 7%;
+    --clr-light: 231 77% 90%;
+    --clr-white: 0 0% 100%;
+}
+
+/* ---------------- */
 /* Reset            */
 /* ---------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
 
 /* Box sizing */
 
@@ -9,3 +21,105 @@
 *::after {
     box-sizing: border-box;
 }
+
+/* Reset margins */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+/* Body */
+
+body {
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+/* Images */
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Forms */
+
+input,
+textarea,
+button,
+select {
+    font: inherit;
+}
+
+/* Animations */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    
+    }
+}
+
+/* ----------------  */
+/* Utilities classes */
+/* ----------------  */
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+}
+
+.container {
+    padding-inline: 2em;
+    max-width: 80rem;
+    margin-inline: auto;
+}
+
+.sr-only {
+    position: absolute;
+    width: 0.0625rem;
+    height: 0.0625rem;
+    padding: 0;
+    margin: -0.0625rem;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.box {
+    background: lightblue;
+    padding: 3rem;
+}
+
+/* Colors */
+
+
+
+
+
+
+
+
+
+
+
