@@ -1,0 +1,9 @@
+body {
+    background: var(--clr-dark);
+    color: var(--clr-accent);
+}
+
+.colors-2 {
+    padding: 3rem 1rem 1rem;
+    border: 1px solid white;
+}
