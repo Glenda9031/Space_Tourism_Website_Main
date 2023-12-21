@@ -4,9 +4,9 @@
 
 :root {
     /* colors */
-    --clr-dark: 230 35% 7%;
-    --clr-light: 231 77% 90%;
-    --clr-white: 0 0% 100%;
+    --clr-dark: hsl(230 35% 7%);
+    --clr-light: hsl(231 77% 90%);
+    --clr-white: hsl(0 0% 100%);
     
     /* font-sizes */
     --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
