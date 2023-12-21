@@ -6,8 +6,8 @@ body {
 .colors-2,
 .colors-3,
 .colors-4 {
-    padding: 3rem 1rem 1rem;
-    border: 1px solid white;
+    padding: 1rem;
+    border: 1px solid #fff;
 }
 
 .colors-2 {
@@ -21,7 +21,7 @@ body {
 }
 
 .colors-4 {
-    background: var(--clr-accent-alpha);
+    background: hsla(231 77% 90% .01);
     color: var(--clr-white);
 }
 
