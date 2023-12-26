@@ -3,12 +3,12 @@
 
 :root {
   --main-color: #0b0d17;
-  --secend-color: #d2d8f9;
+  --second-color: #d2d8f9;
   --hover-color: #85868b;
   --main-padding-top: 100px;
   --main-padding-bottom: 100px;
   --main-font: "Barlow Condensed", sans-serif;
-  --secend-font: "Bellefair", serifs;
+  --second-font: "Bellefair", serifs;
 }
 
 * {
